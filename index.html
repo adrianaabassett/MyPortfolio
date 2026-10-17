@@ -42,7 +42,7 @@
             
             // Carousel State with Images, Captions, and Clickable Links
             const slides = [
-                { src: 'picone.png', caption: 'Watch Demo Reel', link: 'https://youtu.be/36TnjMoK0kc' },
+                { src: 'picone.png', caption: 'Watch Demo Reel', link: 'https://youtu.be/FwLy9o0BUnE' },
                 { src: 'pictwo.png', caption: 'Watch Romeo and Julierat', link: 'https://byu.box.com/s/chq8x35ljnx5j5dw5jysd47pay0wqhjk' },
                 { src: 'picthree.png', caption: null, link: null },
                 { src: 'picfour.png', caption: null, link: null }
@@ -124,9 +124,19 @@
                                 Watch Demo Reel
                             </a>
                             
-                            <a href="Resume_AdrianaBassett.pdf" download className="inline-flex items-center gap-2 px-6 py-3 border border-slate-700 bg-navy-900/60 text-slate-300 hover:text-white rounded font-mono text-sm transition-all hover:bg-blue-900/50 hover:border-blue-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                                Download Resume
+                            <a 
+                              href="/Resume_AdrianaBassett.pdf" 
+                              download="Resume_AdrianaBassett.pdf"
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-2 px-6 py-3 border border-slate-700 bg-navy-900/60 text-slate-300 hover:text-white rounded font-mono text-sm transition-all hover:bg-blue-900/50 hover:border-blue-500"
+                            >
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                              </svg>
+                              Download Resume
                             </a>
                             
                             <div className="flex gap-5 text-slate-400 ml-2 md:ml-4">
